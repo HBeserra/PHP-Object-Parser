@@ -1,0 +1,33 @@
+{
+  "name": "phpo-parser",
+  "version": "0.1.0",
+  "description": "Parse php objects to js objects",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "debug": "ts-node-dev --inspect=0.0.0.0:7001 --exit-child --transpile-only --respawn src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HBeserra/PHP-Object-Parser.git"
+  },
+  "keywords": [
+    "php",
+    "objects",
+    "js"
+  ],
+  "author": "HBeserra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HBeserra/PHP-Object-Parser/issues"
+  },
+  "homepage": "https://github.com/HBeserra/PHP-Object-Parser#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
