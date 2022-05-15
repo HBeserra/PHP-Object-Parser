@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HBeserra/PHP-Object-Parser.git"
+    "url": "git+https://github.com/HBeserra/PHP-object-deserializer.git"
   },
   "keywords": [
     "php",
@@ -23,9 +23,9 @@
   "author": "HBeserra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HBeserra/PHP-Object-Parser/issues"
+    "url": "https://github.com/HBeserra/PHP-object-deserializer/issues"
   },
-  "homepage": "https://github.com/HBeserra/PHP-Object-Parser#readme",
+  "homepage": "https://github.com/HBeserra/PHP-object-deserializer#readme",
   "dependencies": {
     "typescript": "^4.6.4"
   },
