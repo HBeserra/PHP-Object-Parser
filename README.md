@@ -1,4 +1,4 @@
-# PhP Object Parser
+# PhP Object Deserializer
 Convert serialized PHP data to a javascript object
 
 # This fork
