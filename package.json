@@ -2,11 +2,14 @@
   "name": "phpo-parser",
   "version": "0.1.0",
   "description": "Parse php objects to js objects",
-  "main": "src/index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/index.ts",
-    "debug": "ts-node-dev --inspect=0.0.0.0:7001 --exit-child --transpile-only --respawn src/index.ts"
+    "debug": "ts-node-dev --inspect=0.0.0.0:7001 --exit-child --transpile-only --respawn src/index.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
