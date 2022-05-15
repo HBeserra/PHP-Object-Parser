@@ -1,7 +1,7 @@
 {
-  "name": "phpo-parser",
+  "name": "php-obj-deserializer",
   "version": "0.1.0",
-  "description": "Parse php objects to js objects",
+  "description": "deserialize php objects to javascript objects",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "type":"module",
