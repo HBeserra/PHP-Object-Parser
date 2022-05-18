@@ -261,9 +261,3 @@ export function phpObjectParser(objStr: string): Promise<any> {
     resolve(parseNext())
   })
 }
-const exempleSec = "O:3:\"Foo\":4:{s:3:\"bar\";i:1;s:6:\"\u0000*\u0000baz\";i:2;s:10:\"\u0000Foo\u0000xyzzy\";a:9:{i:0;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:4;i:5;i:5;i:6;i:6;i:7;i:7;i:8;i:8;i:9;}s:7:\"\u0000*\u0000self\";r:1;}"
-const exempleObj = "O:3:\"Foo\":4:{s:3:\"bar\";i:1;s:6:\"\u0000*\u0000baz\";i:2;s:10:\"\u0000Foo\u0000xyzzy\";a:9:{i:0;i:1;i:1;i:2;i:2;i:3;i:3;i:4;i:4;i:5;i:5;i:6;i:6;i:7;i:7;i:8;i:8;i:9;}s:7:\"\u0000*\u0000self\";r:1;}"
-const exempleDokan = 'a:20:{s:10:"store_name";s:11:"Lauro Store";s:6:"social";a:7:{s:2:"fb";s:0:"";s:7:"twitter";s:0:"";s:9:"pinterest";s:0:"";s:8:"linkedin";s:0:"";s:7:"youtube";s:0:"";s:9:"instagram";s:0:"";s:6:"flickr";s:0:"";}s:7:"payment";a:2:{s:6:"paypal";a:1:{i:0;s:5:"email";}s:4:"bank";a:0:{}}s:5:"phone";s:0:"";s:10:"show_email";s:2:"no";s:7:"address";a:6:{s:8:"street_1";s:0:"";s:8:"street_2";s:0:"";s:4:"city";s:0:"";s:3:"zip";s:0:"";s:7:"country";s:2:"BR";s:5:"state";s:2:"SP";}s:8:"location";s:0:"";s:6:"banner";i:6109;s:4:"icon";i:0;s:8:"gravatar";i:0;s:14:"show_more_ptab";s:3:"yes";s:9:"store_ppp";i:10;s:10:"enable_tnc";s:3:"off";s:9:"store_tnc";s:0:"";s:23:"show_min_order_discount";s:2:"no";s:9:"store_seo";a:0:{}s:24:"dokan_store_time_enabled";s:2:"no";s:23:"dokan_store_open_notice";s:0:"";s:24:"dokan_store_close_notice";s:0:"";s:10:"seller_qty";s:1:"5";}'
-
-phpObjectParser(exempleDokan)
-.then((res) => console.log({res}))
