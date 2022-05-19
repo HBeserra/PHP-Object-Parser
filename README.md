@@ -18,13 +18,15 @@ echo serialize($array);
 
 **JS/TS**
 ```
+import phpObjectDeserializer from "php-obj-deserializer";
 
 const php_str = "a:2:{s:3:\"foo\";s:3:\"bar\";s:6:\"foobar\";s:3:\"baz\";}"
 
-phpObjectParser(php_str)
+phpObjectDeserializer(php_str)
   .then(console.log)
   .catch(console.error)
 ```
+
 **Result:**
 ```
 { 

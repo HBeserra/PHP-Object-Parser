@@ -1,4 +1,4 @@
-export function phpObjectParser(objStr: string): Promise<any> {
+export default function phpObjectDeserializer(objStr: string): Promise<any> {
   let idx: number = 0
   let ridx: number = 0
   let refStack: any[] = []

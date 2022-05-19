@@ -1,1 +1,1 @@
-export declare function phpObjectParser(objStr: string): Promise<any>;
+export default function phpObjectDeserializer(objStr: string): Promise<any>;
